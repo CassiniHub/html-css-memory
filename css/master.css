@@ -8,16 +8,20 @@
 
 
 
+/* ------- BODY ------- */
+body{
+  background-color: rgb(173, 216, 230);
+}
 
 /* ------- HEADER ------- */
 header {
   height: 100px;
   width: 100%;
-  background-color: rgb(173, 216, 230);
   text-align: center;
   line-height: 100px;
 }
 
+/* add shadow to the title */
 .title{
   font-family: 'Nerko One', cursive;
   font-size: 60px;
