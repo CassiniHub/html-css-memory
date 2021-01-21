@@ -89,6 +89,25 @@ header {
   font-size: 24px;
 }
 
+#front-card{
+  background-image: none;
+}
+
+#fixed-image{
+  display: block;
+  width: 100%;
+}
+
+#fixed-name{
+  color: rgb(223, 43, 135);
+  font-size: 24px;
+}
+
+.box:hover #fixed-name{
+  color: orange;
+}
+
+
 /* ------- FOOTER ------- */
 footer{
   height: 60px;
