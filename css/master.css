@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
 }
 
 
@@ -27,7 +28,6 @@ header {
 
 /* add shadow to the title */
 .title{
-  font-family: 'Nerko One', cursive;
   font-size: 60px;
   color: white;
 }
@@ -47,10 +47,9 @@ header {
 
 /* ------- ROW ------- */
 .row{
-  background-color: green;
-  height: 200px;
   width: 100%;
   margin: 0 auto;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -66,9 +65,26 @@ header {
   height: 150px;
   width: 120px;
   margin: 0 5px;
-  position: relative;
-  top: 25px;
+  vertical-align: middle;
 
   background-image: url(../img/pattern.png);
   background-size: 110%;
+}
+
+.box:hover .card-image, .box:hover .card-name{
+  display: block;
+}
+
+.box:hover{
+  background-image: none;
+}
+.card-image{
+  display: none;
+  width: 100%;
+}
+
+.card-name{
+  display: none;
+  color: rgb(223, 43, 135);
+  font-size: 24px;
 }
