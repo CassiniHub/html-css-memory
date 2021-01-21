@@ -13,6 +13,10 @@ body{
   background-color: rgb(173, 216, 230);
 }
 
+
+
+
+
 /* ------- HEADER ------- */
 header {
   height: 100px;
@@ -26,4 +30,13 @@ header {
   font-family: 'Nerko One', cursive;
   font-size: 60px;
   color: white;
+}
+
+
+
+
+/* ------- GAME TABLE ------- */
+.center{
+  width: 70%;
+  margin: 0 auto;
 }
